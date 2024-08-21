@@ -12,9 +12,9 @@ import {
   getDoc,
   deleteDoc,
 } from "firebase/firestore";
-import PantryForm from "./components/pantry/PantryForm";
-import PantryList from "./components/pantry/PantryList";
-import PantrySearch from "./components/pantry/PantrySearch";
+import PantryForm from "@/components/pantry/PantryForm";
+import PantryList from "@/components/pantry/PantryList";
+import PantrySearch from "@/components/pantry/PantrySearch";
 
 export default function Home() {
   const [inventory, setInventory] = useState([]);
